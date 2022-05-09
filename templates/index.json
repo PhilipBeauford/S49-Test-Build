@@ -6,7 +6,6 @@
         "1558726305880-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wink__iwt-01.jpg",
             "image_crop": "none",
             "image_link": ""
           }
@@ -41,6 +40,53 @@
         "custom_css": ""
       }
     },
+    "165211948798461cd3": {
+      "type": "icon-bar",
+      "blocks": {
+        "fd6b6ede-374a-452e-912b-d7d1e46cd8a2": {
+          "type": "text",
+          "settings": {
+            "icon": "bag",
+            "text": "28 Day Returns",
+            "link": ""
+          }
+        },
+        "1d93cf9a-58f2-43ca-beb6-2520ca95fa80": {
+          "type": "text",
+          "settings": {
+            "icon": "truck",
+            "text": "Free Delivery On Orders Over €40",
+            "link": ""
+          }
+        },
+        "d47773a5-a71f-447a-b74e-e94895806a53": {
+          "type": "text",
+          "settings": {
+            "icon": "pin",
+            "text": "In Business Since 1977",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "fd6b6ede-374a-452e-912b-d7d1e46cd8a2",
+        "1d93cf9a-58f2-43ca-beb6-2520ca95fa80",
+        "d47773a5-a71f-447a-b74e-e94895806a53"
+      ],
+      "settings": {
+        "show_icon_bar": true,
+        "alignment": "center",
+        "icon_position": "row",
+        "size": "large",
+        "background": "#004289",
+        "link_color": "#ffffff",
+        "link_hover_color": "#000000",
+        "text_color": "#ffffff",
+        "width": "standard",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "1558726998500": {
       "type": "index__image-with-text",
       "blocks": {
@@ -62,7 +108,6 @@
         "1558726998500-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wink__iwt-02.jpg",
             "image_crop": "center",
             "image_link": ""
           }
@@ -82,82 +127,10 @@
         "custom_css": ""
       }
     },
-    "1558962636941": {
-      "type": "index__image-with-text",
-      "blocks": {
-        "1558962636941-2": {
-          "type": "text",
-          "settings": {
-            "title": "Visit a Store",
-            "heading_size": "regular",
-            "text": "<p>While our stores are temporarily closed due to COVID-19, we are now offering curbside pickup! We will provide an update on the date of our store reopening as soon as possible.<\/p>",
-            "button_label": "Find a location",
-            "link": "shopify:\/\/pages\/contact-us",
-            "button_style": "button--primary",
-            "background": "#faf0ea",
-            "text_color": "#ee0707",
-            "alignment": "center",
-            "vertical_position": "center"
-          }
-        },
-        "1558962636941-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wink__iwt-03.jpg",
-            "image_crop": "none",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1558962636941-2",
-        "1558962636941-0"
-      ],
-      "settings": {
-        "width": "wide",
-        "show_gutter": false,
-        "padding_top": 20,
-        "padding_bottom": 0,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "1558962749449": {
-      "type": "index__rich-text",
-      "settings": {
-        "title": "Editorial: View our endless summer collection",
-        "heading_font": "ff_meta_serif_n5",
-        "heading_color": "#414b56",
-        "heading_alignment": "center",
-        "heading_size": 49,
-        "text": "",
-        "text_font": "helvetica_n4",
-        "text_color": "rgba(0,0,0,0)",
-        "text_alignment": "left",
-        "text_size": 14,
-        "columns": 1,
-        "button_label": "",
-        "button_link": "",
-        "button_alignment": "center",
-        "button_style": "button--primary",
-        "background": "rgba(0,0,0,0)",
-        "gradient": "rgba(0,0,0,0)",
-        "gradient_rotation": 180,
-        "width": "half",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_left": 0,
-        "padding_right": 0,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
     "1560196327844": {
       "type": "index__featured-collection",
       "settings": {
-        "title": "What we're loving lately",
+        "title": "Our Favourites",
         "collection": "staff-pick",
         "products_per": 4,
         "mobile_products_per_row": "2",
@@ -179,11 +152,12 @@
       "settings": {
         "display_first_name": false,
         "display_last_name": false,
-        "newsletter_title": "Join the club!",
-        "newsletter_richtext": "<p>Sign up for our newsletter for access to our membership club and exclusive discounts. <\/p>",
+        "newsletter_title": "JOIN OUR NEWSLETTER",
+        "newsletter_richtext": "<p>Be the first to know about our offers, events &  new arrivals<\/p>",
         "newsletter_section_text_align": "center",
-        "background_color": "#244a6c",
-        "text_color": "#ffffff",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "background_image": "shopify:\/\/shop_images\/annie-spratt3.jpg",
         "image_darken": false,
         "image_cropping": "center",
         "image_position": "left",
@@ -197,41 +171,23 @@
         "custom_css": ""
       }
     },
-    "1562098767566": {
-      "type": "index__video",
+    "1652116730361dc72c": {
+      "type": "index__heading",
       "settings": {
-        "aspect_ratio": "16:9",
-        "autoplay": false,
-        "autoloop": true,
-        "mute_video": false,
-        "controls": true,
-        "iframe_video": "https:\/\/player.vimeo.com\/video\/140499091",
-        "html5_video": "",
-        "image": "shopify:\/\/shop_images\/wink__video-01.jpg",
-        "pretext": "",
-        "title": "Seeing is believing",
-        "subtitle": "",
-        "pretext_color": "#000000",
-        "heading_color": "#ffffff",
-        "subheading_color": "#000000",
-        "horizontal_text_position": "center",
-        "vertical_text_position": "center",
-        "text_align": "center",
-        "button_label": "Play video",
-        "button_style": "button--link-style",
-        "overlay_style": "full",
-        "video_overlay_color": "#e8bd88",
-        "gradient": "#ca5d6e",
+        "preheading": "<p>Quisque velit nisi-<\/p>",
+        "title": "\"Pellentesque in ipsum id orci porta dapibus.\"",
+        "subheading": "",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "rgba(0,0,0,0)",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
         "gradient_rotation": 0,
-        "background_opacity": 80,
-        "text_width": 65,
-        "mobile_text_below_video": false,
-        "pretext_color_mobile": "rgba(0,0,0,0)",
-        "heading_color_mobile": "rgba(0,0,0,0)",
-        "subheading_color_mobile": "rgba(0,0,0,0)",
-        "width": "half",
-        "padding_top": 0,
-        "padding_bottom": 40,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "wide",
+        "padding_top": 20,
+        "padding_bottom": 20,
         "padding_left": 0,
         "padding_right": 0,
         "animation": "none",
@@ -239,78 +195,72 @@
         "custom_css": ""
       }
     },
-    "1562161575138": {
-      "type": "index__blog-posts",
-      "settings": {
-        "title": "The latest from our blog",
-        "blog_widget_select": "news",
-        "home_page_articles": 3,
-        "blog_show_tags": true,
-        "blog_author": true,
-        "read_time": true,
-        "blog_date": true,
-        "blog_comment_count": false,
-        "blog_show_excerpt": true,
-        "show-border": true,
-        "button_label": "Read more",
-        "button_type": "button--primary",
-        "width": "standard",
-        "padding_top": 25,
-        "padding_bottom": 25,
-        "animation": "none",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "1562783760149": {
-      "type": "index__testimonial",
+    "165211687017952a3b": {
+      "type": "index__icon-with-text-column",
       "blocks": {
-        "1562783760149-0": {
-          "type": "image",
+        "16521168700da7ba3b-0": {
+          "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wink__testimonial-01.jpg",
-            "quote": "<p>I love my glasses! The quality is top notch and they were a super reasonable price. I&#x27;ll be looking to get some sunglasses next.<\/p>",
-            "text": "<p><strong>Courtney Van Bakel<\/strong><\/p><p><em>CEO<\/em><\/p><p><a href=\"http:\/\/google.com\" title=\"http:\/\/google.com\">Beautiful People Magazine<\/a><\/p>",
-            "info_text": "#000000",
-            "info_background": "#ffffff"
+            "icon_label": "house",
+            "title": "WE LOVE OUTDOORS",
+            "text": "<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>",
+            "button_label": "",
+            "link": ""
           }
         },
-        "1562783760149-1": {
-          "type": "image",
+        "16521168700da7ba3b-1": {
+          "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wink__testimonial-02.jpg",
-            "quote": "<p>My glasses arrived very quickly and are great quality. The customer service both online and in-store was superb!<\/p>",
-            "text": "<p><strong>Luke Labog<\/strong><\/p><p><em>Carpenter<\/em><\/p><p><a href=\"https:\/\/www.google.com\/\" title=\"https:\/\/www.google.com\/\">makinstuff.com<\/a><\/p>",
-            "info_text": "rgba(0,0,0,0)",
-            "info_background": "rgba(0,0,0,0)"
+            "icon_label": "bag",
+            "title": "SUSTAINABLE",
+            "text": "<p>Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.<\/p>",
+            "button_label": "",
+            "link": ""
           }
         },
-        "1562783760149-2": {
-          "type": "image",
+        "16521168700da7ba3b-2": {
+          "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wink__testimonial-3.jpg",
-            "quote": "<p>The glasses are lightweight, fit comfortably and were very reasonably priced. The customer service was knowledgable and friendly.<\/p>",
-            "text": "<p><strong>Kari Quinn<\/strong><\/p><p><em>Interior decorator<\/em><\/p><p><\/p>",
-            "info_text": "rgba(0,0,0,0)",
-            "info_background": "rgba(0,0,0,0)"
+            "icon_label": "tag",
+            "title": "BASED IN IRELAND",
+            "text": "<p>Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "16521168700da7ba3b-3": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "star",
+            "title": "SOMETHING",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<\/p>",
+            "button_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "1562783760149-0",
-        "1562783760149-1",
-        "1562783760149-2"
+        "16521168700da7ba3b-0",
+        "16521168700da7ba3b-1",
+        "16521168700da7ba3b-2",
+        "16521168700da7ba3b-3"
       ],
       "settings": {
-        "show_border": false,
-        "enable_images": true,
-        "crop_shape": "circle",
-        "card_alignment": "center",
-        "card_text": "#c70000",
-        "card_background": "#faf0ea",
+        "icons_per_row": 4,
+        "icon_size": "medium",
+        "align_text": "center",
+        "button_style": "button--primary",
+        "icon_color": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
         "width": "standard",
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
         "animation": "none",
         "css_class": "",
         "custom_css": ""
@@ -319,13 +269,11 @@
   },
   "order": [
     "1558726305880",
-    "1560196327844",
+    "165211948798461cd3",
     "1558726998500",
-    "1558962749449",
-    "1562098767566",
-    "1562161575138",
-    "1558962636941",
-    "1562783760149",
-    "1562091985988"
+    "1560196327844",
+    "1562091985988",
+    "1652116730361dc72c",
+    "165211687017952a3b"
   ]
 }

@@ -65,8 +65,14 @@
     {% endif %}
   {% endif %}
 
+
+      <!-- Wishlist icon goes here -->
+
+
   {% comment %} Cart icon {% endcomment %}
-  <div class="header-cart action-area__link {% if cart.item_count != 0 %}has-cart-count{% endif %}" data-ajax-cart-trigger>
+  <!-- <div class="header-cart action-area__link {% if cart.item_count != 0 %}has-cart-count{% endif %}" data-ajax-cart-trigger> -->
+
+  <div class="header-cart action-area__link has-cart-count" data-ajax-cart-trigger></div>
     <a class="header__link" href="{{ routes.cart_url }}" >
       <span class="header-cart__icon">
         {% render 'icon',

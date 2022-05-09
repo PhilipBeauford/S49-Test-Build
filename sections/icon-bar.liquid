@@ -1,5 +1,5 @@
 {% comment %}
-** Icon bar for footer - static **
+** Icon bar for footer - dynamic version **
 {% endcomment %}
 
 {% assign id = section.id %}
@@ -88,12 +88,11 @@
 
 
 
-
 {% schema %}
 
 {
-  "name": "Icon bar",
-  "class": "icon-bar",
+  "name": "Icon Bar",
+  "class": "icon-bar-dynamic",
   "max_blocks": 6,
   "settings": [
     {
@@ -249,38 +248,11 @@
       ]
     }
   ],
-  "default": {
-    "blocks": [
-      {
-        "type": "text",
-        "settings": {
-          "icon": "leaf",
-          "text": "100% Organic"
-        }
-      },
-      {
-        "type": "text",
-        "settings": {
-          "icon": "bunny",
-          "text": "Cruelty free"
-        }
-      },
-      {
-        "type": "text",
-        "settings": {
-          "icon": "chat",
-          "text": "24/7 support"
-        }
-      },
-      {
-        "type": "text",
-        "settings": {
-          "icon": "truck",
-          "text": "Free shipping"
-        }
-      }
-    ]
-  }
+   "presets": [
+     {
+       "name":"Icon Bar"
+     }
+   ]
 }
 
 
