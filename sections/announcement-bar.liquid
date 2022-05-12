@@ -77,6 +77,12 @@
 
           <div class="announcement-bar__text text-align-{{ section.settings.alignment }}">
             {{ section.settings.text }}
+
+            {% if section.settings.learn_text != blank %}
+              <p class="strike">{{ section.settings.learn_text }}</p>
+            {% endif %}
+            
+
             <p class="buttons">
               {% if section.settings.button_label != blank %}
                 {% render 'button',
@@ -150,6 +156,11 @@
       "id": "text",
       "label": "Text",
       "default": "<p>Draw attention to promos + sales!</p>"
+    },
+    {
+      "type": "text",
+      "id": "learn_text",
+      "label": "Text After"
     },
     {
       "type": "select",

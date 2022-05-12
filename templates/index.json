@@ -1,40 +1,56 @@
 {
   "sections": {
-    "1558726305880": {
-      "type": "index__image-with-text",
+    "16521223214fec9e3d": {
+      "type": "hero-images",
       "blocks": {
-        "1558726305880-0": {
+        "1652122321bf034b9c-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Slideshow_Classic2.png",
             "image_crop": "none",
-            "image_link": ""
+            "image_link": "",
+            "pre_title": "",
+            "title": "",
+            "heading_size": "regular",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "alignment": "center",
+            "vertical_position": "center"
           }
         },
-        "1558726305880-2": {
-          "type": "text",
+        "1b2cdf86-bd84-48d9-94da-a5a835d2cdb9": {
+          "type": "image",
           "settings": {
-            "title": "Designer and vintage inspired eyewear that won't break the bank",
-            "heading_size": "large",
-            "text": "<p>Our new unisex collection inspired by styles of the past<br\/>that are both ultra hip and classically stylish. <\/p>",
-            "button_label": "Shop the collection",
-            "link": "shopify:\/\/collections\/mens-sunglasses",
+            "image": "shopify:\/\/shop_images\/Slideshow_Classic.png",
+            "image_crop": "none",
+            "image_link": "",
+            "pre_title": "",
+            "title": "",
+            "heading_size": "regular",
+            "text": "",
+            "button_label": "",
+            "link": "",
             "button_style": "button--primary",
-            "background": "#faf0ea",
-            "text_color": "#ee0707",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
             "alignment": "center",
             "vertical_position": "center"
           }
         }
       },
       "block_order": [
-        "1558726305880-0",
-        "1558726305880-2"
+        "1652122321bf034b9c-1",
+        "1b2cdf86-bd84-48d9-94da-a5a835d2cdb9"
       ],
       "settings": {
         "width": "wide",
         "show_gutter": true,
         "padding_top": 0,
-        "padding_bottom": 40,
+        "padding_bottom": 20,
         "animation": "none",
         "css_class": "",
         "custom_css": ""
@@ -268,7 +284,7 @@
     }
   },
   "order": [
-    "1558726305880",
+    "16521223214fec9e3d",
     "165211948798461cd3",
     "1558726998500",
     "1560196327844",
