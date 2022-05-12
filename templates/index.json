@@ -91,7 +91,7 @@
       ],
       "settings": {
         "show_icon_bar": true,
-        "alignment": "center",
+        "alignment": "space-between",
         "icon_position": "row",
         "size": "large",
         "background": "#004289",
@@ -99,6 +99,61 @@
         "link_hover_color": "#000000",
         "text_color": "#ffffff",
         "width": "standard",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1652275381cb66520d": {
+      "type": "hero-images",
+      "blocks": {
+        "1652275380a8eac4dc-0": {
+          "type": "image",
+          "settings": {
+            "image_crop": "none",
+            "image_link": "",
+            "pre_title": "Pre-Title text here",
+            "title": "Heading text here",
+            "heading_size": "regular",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_label": "View all",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "78b6b9bb-a819-4c54-8aec-55723437d436": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_8.png",
+            "image_crop": "none",
+            "image_link": "",
+            "pre_title": "",
+            "title": "",
+            "heading_size": "regular",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1652275380a8eac4dc-0",
+        "78b6b9bb-a819-4c54-8aec-55723437d436"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
         "css_class": "",
         "custom_css": ""
       }
@@ -286,6 +341,7 @@
   "order": [
     "16521223214fec9e3d",
     "165211948798461cd3",
+    "1652275381cb66520d",
     "1558726998500",
     "1560196327844",
     "1562091985988",
